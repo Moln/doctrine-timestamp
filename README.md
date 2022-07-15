@@ -11,12 +11,8 @@ Installation
 
 Just add this to your composer.json
 
-```json
-{
-  "require": {
-    "moln/doctrine-timestamp": "dev-master"
-  }
-}
+```bash
+composer require moln/doctrine-timestamp
 ```
 
 Then, when bootstraping your doctrine connection :

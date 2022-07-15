@@ -1,5 +1,5 @@
 {
-    "name": "mmerian/doctrine-timestamp",
+    "name": "moln/doctrine-timestamp",
     "type": "library",
     "description": "A library adding the timestamp type to Doctrine ORM",
     "keywords": ["Doctrine", "ORM", "timestamp", "DateTime"],

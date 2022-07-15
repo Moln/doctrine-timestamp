@@ -6,16 +6,23 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Maxime Mérian",
-            "email": "maxime.merian@gmail.com"
+            "name": "Moln Xie",
+            "email": "moln.xie@gmail.com"
         }
     ],
-    "require" : {
-        "doctrine/dbal": "2.*"
+    "require": {
+        "php": ">=5.5.0",
+        "doctrine/dbal": "2.* | ^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
     },
     "autoload": {
-        "psr-0": {
-            "DoctrineTimestamp": "lib"
+        "psr-4": {
+            "DoctrineTimestamp\\DBAL\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": { "DoctrineTimestamp\\Test\\DBAL\\Types\\": "tests/" }
     }
 }

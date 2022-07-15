@@ -14,7 +14,7 @@ Just add this to your composer.json
 ```json
 {
   "require": {
-    "mmerian/doctrine-timestamp": "dev-master"
+    "moln/doctrine-timestamp": "dev-master"
   }
 }
 ```
